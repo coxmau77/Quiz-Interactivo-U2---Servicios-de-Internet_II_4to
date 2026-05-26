@@ -1,7 +1,7 @@
 :root {
-    --main-clr2: rgb(216, 32, 155);
-    --main-clr-light: oklch(90.638% 0.0587 309.778);
-    --main-clr-dark: oklch(13.772% 0.04909 311.232);
+    --main-clr2: oklch(60.884% 0.12637 157.408);
+    --main-clr-light: oklch(96.045% 0.05782 164.609);
+    --main-clr-dark: oklch(17.116% 0.03299 161.577);
 
     --radius-sm: 0;
     --radius-md: 0;
@@ -1423,11 +1423,25 @@ body.dark .diploma-card {
     height: 100%;
 }
 
-.diploma-icon.perfect { color: #fbbf24; }
-.diploma-icon.excellent { color: #4ade80; }
-.diploma-icon.good { color: #60a5fa; }
-.diploma-icon.needs-improvement { color: #fb923c; }
-.diploma-icon.poor { color: #9ca3af; }
+.diploma-icon.perfect {
+    color: #fbbf24;
+}
+
+.diploma-icon.excellent {
+    color: #4ade80;
+}
+
+.diploma-icon.good {
+    color: #60a5fa;
+}
+
+.diploma-icon.needs-improvement {
+    color: #fb923c;
+}
+
+.diploma-icon.poor {
+    color: #9ca3af;
+}
 
 .diploma-heading {
     font-size: 0.875rem;
@@ -1716,8 +1730,15 @@ body.dark .diploma-footer {
 }
 
 @keyframes diploma-glow {
-    0%, 100% { box-shadow: 0 2px 12px rgba(217, 119, 6, 0.5); }
-    50% { box-shadow: 0 2px 20px rgba(217, 119, 6, 0.8); }
+
+    0%,
+    100% {
+        box-shadow: 0 2px 12px rgba(217, 119, 6, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 2px 20px rgba(217, 119, 6, 0.8);
+    }
 }
 
 .achievement-icon.speed {
