@@ -1,6 +1,6 @@
 const quizInfo = {
   pageTitle: "U2 - Servicios de Internet (II)",
-  title: "El destino fisico de los datos",
+  title: "Quiz - El destino fisico de los datos",
   subtitle: "Internet II",
   classInfo: "4° Año - Materia: Computer Science",
   welcomeTitle: "U2 - Servicios de Internet (II)",
